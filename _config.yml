@@ -5,7 +5,7 @@ header-img: img/post-bg-desk.jpg
 email: aaron950415@qq.com
 description: "Every failure is leading towards success."
 keyword: "BY, BY Blog, Aaron's blog, 王勇, Aaron, JS, Javascript, learn, iPhone"
-url: "http://qiubaiying.github.io"          # your host, for absolute URL
+url: "http://aaron950415.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/aaron950415/aaron950415.github.io/" # you code repository
 
