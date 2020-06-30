@@ -19,7 +19,7 @@ GitHub Pages is a function provided by GitHub to display static web pages hosted
 
 - Suppose we have uploaded a local repository to GitHub, we open this repository in Github, and there is already an HTML file in the repository.
 
-![a](./img/item11.jpg)
+![a](https://github.com/aaron950415/aaron950415.github.io/blob/master/img/item11.jpg)
 
 - Next we turn on the GitHub Pages function, click Settings, scroll down to find GitHub Pages, select the master branch, and then GitHub Pages is already open
 
