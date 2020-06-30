@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      introduction
+title:      Introduction
 subtitle:   
 date:       2020-06-30
 author:     BY Aaron
