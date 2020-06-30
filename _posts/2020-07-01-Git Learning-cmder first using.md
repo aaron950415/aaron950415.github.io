@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      git learning
+title:      Git Learning
 subtitle:   cmder first using
 date:       2020-07-01
 author:     BY Aaron
