@@ -3,7 +3,7 @@ layout:     post
 title:      introduction
 subtitle:   
 date:       2020-06-30
-author:     BY
+author:     BY Aaron
 header-img: img/tag-bg.jpg
 catalog: true
 tags:
