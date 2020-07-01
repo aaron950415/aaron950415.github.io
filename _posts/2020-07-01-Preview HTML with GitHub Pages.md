@@ -25,7 +25,7 @@ GitHub Pages is a function provided by GitHub to display static web pages hosted
 
 ![](/img/item12.jpg)
 
-- We can see a link provided by GitHub Pages, copy this link, and add index.html (aaron950415.github.io/learning/…) to preview our web page
+- We can see a link provided by GitHub Pages, copy this link, and add `index.html` `(aaron950415.github.io/learning/…)` to preview our web page
 
 ![](/img/item13.jpg)
 
