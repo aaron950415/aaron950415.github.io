@@ -27,7 +27,7 @@ Now, I introduce some Table chapter tags we often use:
 
 Additionally, some global attributes we also need to note, such as `class`,`style`,`contenteditable`,`title`,`tabindex`,`hiden` and `id` ect.
 
-Some tags we often use I will mention as flow:
+Some tags we often use I will mention as follows:
 
 1. `<a>` defines hyperlinks, which are used to link from one page to another. The most important attribute of the `<a>` element is the href attribute, which indicates the target of the link.
 2. `<strong>` and `<em>` all express emphasis, but `<em>` defines text as expert content. `<strong>` defines the text as the content of the author with a stronger tone.
