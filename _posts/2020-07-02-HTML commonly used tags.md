@@ -28,14 +28,14 @@ Initially, I thought that `<a>` tag is very simple to use, just add tag and attr
     <a herf="#XXXXX">ID</a>
     ```
 
-2)  The value of `target`, this value can determine page open position in the browser.
+2.  The value of `target`, this value can determine page open position in the browser.
     ```html
     <a herf="#" target="_bank"> open in new tab in the browser</a>
     <a herf="#" target="_bank"> open in original tag</a>
     <a herf="#" target="_parent">open page in the parent frame (often use it with iframe tag)</a>
     <a herf="#" target="_top">open page in the top frame (often use it with iframe tag)</a>
     ```
-3)  The value of `tittle`, it will show the information about the link when mouse move on link.
+3.  The value of `tittle`, it will show the information about the link when mouse move on link.
     ```html
     <a herf="#" tittle="I wanna change">the information will show "I wanna change"</a>
     ```
