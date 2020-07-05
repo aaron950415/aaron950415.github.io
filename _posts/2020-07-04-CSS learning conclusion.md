@@ -33,7 +33,7 @@ Need to understand that these five steps are not necessarily completed in one or
 Look at this code:
 
 ```html
-<div class="move"></div>
+<div id="move"></div>
 <style>
   #move {
     width: 100px;
@@ -89,11 +89,8 @@ This means I create a red box which can move to right 200px, 10px per second. Lo
   }, 1000);
 </script>
 ```
-These contain two ways to create CSS animation, transition and animation. transition and animation nearly the same, but animation is better. But transition only achieve one step, animation can put all the steps together. 
+These contain two ways to create CSS animation, transition and animation. transition and animation nearly the same, but animation is better. But transition only achieve one step, animation can put all the steps together. As for how to use it, you can search website or click [here](https://developer.mozilla.org/en-US/docs/Web/CSS/transition) turn to MDN page. There are very clearly to talk about how to use.
 
 
-What are different between them, using `setInterval()` in JavaScript and animation? It is render way different. if you use first way to render, the website need to paint when the position change. If choosing another, it just paint twice, begin and end, jump the other process. Reduced the burden of web page loading. So if we want to Optimize CSS, we can change form to programming. I recommend a source page it provide What process is triggered by each attribute.
-
-https://csstriggers.com/
-[](https://csstriggers.com/)
+What are different between them, using `setInterval()` in JavaScript and animation? It is render way different. if you use first way to render, the website need to paint when the position change. If choosing another, it just paint twice, begin and end, jump the other process. Reduced the burden of web page loading. So if we want to Optimize CSS, we can change form to programming. I recommend a source page it provide What process is triggered by each attribute, [Csstriggers](https://csstriggers.com/).
 
