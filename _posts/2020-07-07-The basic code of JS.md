@@ -91,6 +91,7 @@ Commonly used identifiers can be Unicode letters, $ or _ (underscore).
 * Numbers cannot start
 * Variable names are also identifiers
 ```javascript
+
 /*Correct Wording*/
 var _12 = 11;
 var $2 = 44;
