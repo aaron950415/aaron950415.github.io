@@ -90,15 +90,15 @@ Commonly used identifiers can be Unicode letters, $ or _ (underscore).
 * Usually the characters at the beginning should be the ones mentioned above
 * Numbers cannot start
 * Variable names are also identifiers
-```
 
-/*Correct Wording*/
+```javascript
+//Correct Wording
 var _12 = 11; 
 var $2 = 44;
 var cc2 = 3;
 var _______ = 6; 
 
-/*Incorrect Wording*/
+//Incorrect Wording
 var 23_;      
 var 3$;
 ```
