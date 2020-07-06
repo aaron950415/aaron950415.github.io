@@ -36,7 +36,7 @@ In the JavaScript, expression and statement are different. Expression will get a
   ```javascript
   console.log // value is itself
   ```
-  ![](/img/item/5-1.jpg)
+  ![](/img/item/item5-1.jpg)
 * get a function return value
   ```javascript
   add(1,2); // value is function return value
@@ -68,7 +68,7 @@ if(){}
   3;                      
   console.log(a);             //value is 3   
 ```
-  ![](/img/item/5-2.jpg)
+  ![](/img/item/item5-2.jpg)
 However, you cannot add a carriage return after the function return value, because when there is no expression or statement after the return, it will automatically add a carriage return to end.
   ```javascript
   var a=1;
@@ -84,7 +84,7 @@ However, you cannot add a carriage return after the function return value, becau
   console.log(test1(a)); //value is 1 
   console.log(test2(a)); //value is undefined
 ```
- ![](/img/item/5-3.jpg)
+ ![](/img/item/item5-3.jpg)
 ## Identifier rules
 Commonly used identifiers can be Unicode letters, $ or _ (underscore).
 * Usually the characters at the beginning should be the ones mentioned above
@@ -108,7 +108,7 @@ I will not say the specific usage of if and switch statements, I believe everyon
 ### If else
 * In the if statements, if { } just contain one statement, it can ignore { }, but I don't recommend, because it will make statements confuse, such as 
 `if(b === 3) a=1;else a=2;`
- ![](/img/item/5-4.jpg)
+ ![](/img/item/item5-4.jpg)
 * I recommend original writing.
   ```javascript
   if(Expressions){
@@ -147,7 +147,7 @@ Switch can be said to be an upgraded version of if. But it is not recommended. I
         console.log("finish");
   }
   ```
-   ![](/img/item/5-5.jpg)
+   ![](/img/item/item5-5.jpg)
 ## Loop statement
 ### While
 Its execution sequence is to judge whether the expression is true, skip directly if it is not true, execute the loop body for true, and then judge the expression.
@@ -170,7 +170,7 @@ for(var i=0;i<5;i++){
 }
 console.log(i);       //result is 5
 ```
-   ![](/img/item/5-6.jpg)
+   ![](/img/item/item5-6.jpg)
 ### Break and continue
 Break and continue both use in loop statements, but break can jump out switch statement as I said before.
 The function of break is to end the most recent cycle. (Note the most recent one). continue is to end the current loop and enter the next loop. (Also the closest)
@@ -186,7 +186,7 @@ for(var k=0;k<5;k++){
 }
 console.log("k =" + k);       //result is 5
 ```
-   ![](/img/item/5-7.jpg)
+   ![](/img/item/item5-7.jpg)
 ## Label
 The syntax of label is rarely used, and it is very similar to the composition of object. The effect is to add an identifiable identifier in front of the statement. It is equivalent to storing a statement in a variable, similar to the function name of the function.
 
@@ -199,4 +199,4 @@ foo: {
 }
 console.log('print');
 ```
-   ![](/img/item/5-8.jpg)
+   ![](/img/item/item5-8.jpg)
