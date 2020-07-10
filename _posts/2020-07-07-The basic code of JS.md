@@ -90,15 +90,16 @@ Commonly used identifiers can be Unicode letters, $ or _ (underscore).
 * Usually the characters at the beginning should be the ones mentioned above
 * Numbers cannot start
 * Variable names are also identifiers
+
 ```javascript
-/*Correct Wording*/
-var _12 = 11;
+//Correct Wording
+var _12 = 11; 
 var $2 = 44;
 var cc2 = 3;
 var _______ = 6; 
 
-/*Incorrect Wording*/
-var 23_;
+//Incorrect Wording
+var 23_;      
 var 3$;
 ```
 It is recommended that the underline should not exceed 2, although it is correct, it is not convenient to remember. $, this symbol is used in Jquery and has similarities.
