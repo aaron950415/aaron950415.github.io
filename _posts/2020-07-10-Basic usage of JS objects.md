@@ -12,21 +12,21 @@ tags:
 ---
 
 JavaScript objects are data with properties and methods. It is the only complex data among the six data types
-## 1. Create object
+##  Create object
 It can be created that use two ways.
 1. Use the assignment block to create directly.
-```javascript
-let i={
-    'name':test,
-    'age' :17
-}
-```
+    ```javascript
+    let i={
+        'name':test,
+        'age' :17
+    }
+    ```
 2. Object() mode uses object literals
-```javascript
-let i = new Object();
-i.name = test;
-i.age = 17;
-```
+    ```javascript
+    let i = new Object();
+    i.name = test;
+    i.age = 17;
+    ```
 Notice,the `name` in the object is String!!! Sometimes, it can be without quotes, but it still is string. We recommend adding quotation marks, otherwise sometimes errors may occur. For example, special key names will be automatically converted.
 ```javascript
 let i={
