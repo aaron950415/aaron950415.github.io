@@ -12,7 +12,7 @@ tags:
 ---
 
 JavaScript objects are data with properties and methods. It is the only complex data among the six data types
-##  Create object
+## Create object
 It can be created that use two ways.
 1. Use the assignment block to create directly.
     ```javascript
@@ -28,6 +28,7 @@ It can be created that use two ways.
     i.age = 17;
     ```
 Notice,the `name` in the object is String!!! Sometimes, it can be without quotes, but it still is string. We recommend adding quotation marks, otherwise sometimes errors may occur. For example, special key names will be automatically converted.
+
 ```javascript
 let i={
     1e2 :'',
@@ -37,9 +38,10 @@ let i={
 console.log(Object.keys(i))   //result is ["100", "255", "0.234"]
 ```
 Without quotation marks, strange key names will first be converted into numeric values and then into strings. `Object.keys(XXX)` is possible to list all the key values in the `XXX` object in an array.
+
 ## For changes in attributes
 ### delete attributes
-`delete obj.XXX` or `delete obj['XXX']` can delete `XXX` attribute in the object. Then we can query the information.
+The `delete obj.XXX` or `delete obj['XXX']` can delete `XXX` attribute in the object. Then we can query the information.
 ```  javascript
 let i={XXX:cc};
 delete i.XXX;
