@@ -71,6 +71,7 @@ JavaScript provides multiple built-in objects, such as String, Date, Array, and 
 * Array is an object
 * Even functions can be objects
 * The object is just a special kind of data.
+  
 # Data type conversion
 ## Convert data types to string
 ### Method one:
