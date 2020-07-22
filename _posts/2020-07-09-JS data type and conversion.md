@@ -20,14 +20,18 @@ There are seven types of data, four basic types, two empty types, and one object
       var Age = 21.3578 //floating
       ```
       It has 3 special values.
-Infinity, representing infinity, greater than any value
--Infinity, stands for infinitesimal, less than any value
-NaN, Not a number, represents a non-number
+      Infinity, representing infinity, greater than any value
+
+      -Infinity, stands for infinitesimal, less than any value
+
+      NaN, Not a number, represents a non-number
+
       ```javascript
       alert(Infinity); //Infinity
       alert(-Infinity); //-Infinity
       alert(NaN); //NaN
       ```
+
   1. String
    
       String type can use any text in quotation marks, the syntax is double quotation mark "" and single quotation mark ''
@@ -40,6 +44,7 @@ NaN, Not a number, represents a non-number
         var strMsg = 'I like u';
         console.log(strMsg.length)     //show length 8
       ```
+
   2. Boolean
    
       The Boolean type has two values: true and false, where true means true, and false means false. When the Boolean and numeric types are added, the value of true is 1, and the value of false is 0.
@@ -53,6 +58,7 @@ NaN, Not a number, represents a non-number
 
       Data type "symbol" is a primitive data type. The nature of this type is that the value of this type can be used to create anonymous object properties. This data type is usually used as the key value of an object property-when you want it to be private. For example, symbols of type symbol exist in various built-in JavaScript objects. Similarly, custom classes can also create private members in this way.
       At present, we have basically abandoned the use of symbols, so I will not explain in depth.
+
 ## Empty types
 ### Undefined and Null
 A variable that has not been assigned a value after declaration will have a default value of undefined.
