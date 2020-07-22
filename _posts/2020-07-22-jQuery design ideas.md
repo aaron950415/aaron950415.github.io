@@ -94,7 +94,7 @@ If it is to move an element, there are two steps. The first step is to move the 
 jQuery uses the overloaded design pattern to achieve different parameters and use different codes.
 
 ```javascript
-.attr(name，value)  //Set attribute value
+.attr(name, value)  //Set attribute value
 .attr(name)   //read attribute value
 
 .text()
