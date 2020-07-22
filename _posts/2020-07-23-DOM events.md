@@ -15,7 +15,7 @@ The DOM level can be divided into four levels: DOM0 level, DOM1 level, DOM2 leve
 
 ## DOM event level
 
-1. DOM 0 event
+### DOM 0 event
 
 `el.onclick=function(){}`
 
@@ -28,7 +28,7 @@ btn.onclick = function(){
 
 When you want to bind multiple events of the same type to the same element/label (for example, bind 3 click events to the btn element above), it is not allowed. DOM0 event binding, binding methods to the event behavior of the element, these methods are all executed in the bubbling phase (or target phase) of the current element's event behavior.
 
-2. DOM 2 event
+### DOM 2 event
 
 `el.addEventListener(event-name, callback, useCapture)`
 
@@ -46,7 +46,7 @@ function test(e){
 }
 ```
 
-3. DOM 3 event
+### DOM 3 event
 
 More event types have been added to the DOM Level 2 event.
 
