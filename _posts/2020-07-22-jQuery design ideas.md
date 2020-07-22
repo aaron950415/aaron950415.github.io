@@ -8,7 +8,7 @@ header-img: img/tag-bg.jpg
 catalog: true
 tags:
   - JavaScript
-  - Algorithm
+  - jQuery
 ---
 jQuery is currently the most widely used javascript library. Learning jQuery is necessary because it allows you to lay the foundation for learning more advanced libraries in the future, and it is indeed easy to make many complex effects.
 
