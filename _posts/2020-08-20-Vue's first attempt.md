@@ -52,16 +52,16 @@ Vue.js is complete version, vue.runtime.js is incomplete version.
 2. Select the vue project option;
 
 
-![](/img/item6-1.jpg)
+![](/img/item/item6-1.jpg)
 
 3. After a while, a brand new vue project will be generated;
 
-![](/img/item6-2.jpg)
+![](/img/item/item6-2.jpg)
 
 4. Any content can be changed and it is a real-time preview environment;
 
-![](/img/item6-3.jpg)
+![](/img/item/item6-3.jpg)
 
 5. You can export ZIP.
 
-![](/img/item6-4.jpg)
+![](/img/item/item6-4.jpg)
