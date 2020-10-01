@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Vue之TS的vue-property-decorator(装饰器)的components用法.md
+title: Vue之TS的vue-property-decorator(装饰器)的components用法
 subtitle:
 date: 2020-08-30
 author: BY Aaron
