@@ -88,8 +88,8 @@ Firebase Cloud Messaging (FCM) 是一种跨平台消息传递解决方案，开�
     ```
 6. 使用`angular`代码可以快速在services文档下创建一个service
    
-        ng g s services/push-notification
-
+        ng g s service/push-notification
+	
 7. `push-notification.service.ts`里面内容如下
 
     ```typescript
